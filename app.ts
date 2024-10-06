@@ -1,5 +1,4 @@
-const soma = (a: number, b: number) => {
-  console.log(a + b)
-}
+const nome: string = "Daniel"
+let idade: number = 17
 
-soma(2,6)
+let x: number | string = 2
