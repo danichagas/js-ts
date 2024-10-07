@@ -1,11 +1,7 @@
-const pessoa = {
-  genero: 'masculino'
+function Pessoa(nome, idade) {
+  this.nome = nome
+  this.idade = idade
 }
 
-const daniel = {
-  nome: 'Daniel',
-  idade: 17,
-  __prop__: pessoa
-}
-
-console.log(daniel.genero)
+const pessoa = new Pessoa('Daniel', 17)
+console.log(pessoa)
