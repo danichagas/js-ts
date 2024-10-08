@@ -1,16 +1,5 @@
-function meApresentar() {
-  console.log('Olá meu nome é Daniel')
+const arrowFunction = () => {
+  console.log('Esta é uma arrow function')
 }
 
-function falarMeuNomeCompleto() {
-  meApresentar()
-  console.log('E meu sobrenome é Chagas')
-}
-
-falarMeuNomeCompleto()
-
-const functionExpression = function () {
-  console.log('Está função está sendo invocada atráves de uma variável')
-}
-
-functionExpression()
+arrowFunction()
