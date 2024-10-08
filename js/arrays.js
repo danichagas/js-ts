@@ -1,10 +1,7 @@
-const lista = [1,2,3,4,5]
-lista.forEach((value, i) => {
-  console.log(value, i)
+const lista = ['Daniel', 'Naldo', 'Silviane', 'Marcelly']
+
+const listaHtml = lista.map((element) => {
+  return element.toUpperCase()
 })
 
-const numerosPares = lista.filter((element) => {
-  return element % 2 === 0
-})
-
-console.log(numerosPares)
+console.log(listaHtml)
